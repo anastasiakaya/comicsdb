@@ -1,0 +1,36 @@
+
+
+.character__content h2, .character__content h3, .character__content h4 {
+    clear: both;
+}
+
+.character__content h2:not(:first-child) {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px dashed #a9a9a9;
+}
+
+.character__content figure.small, 
+.character__content figure[data-size=small],
+.character__content figure.medium, .character__content figure[data-size=medium] {
+    max-width: 280px;
+}
+
+
+.character__content .right, .character__content [data-align="right"] {
+    float: right !important;
+    margin-right: 0;
+    margin-top: 0;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    clear: both;
+}
+
+.character__content figcaption {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.character .divider {
+    clear: both;
+}

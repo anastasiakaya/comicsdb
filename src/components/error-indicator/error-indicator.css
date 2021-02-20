@@ -1,0 +1,12 @@
+.error-indicator {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.eroor-indicator__img {
+    
+}
+
+.error-indicator__img img {
+    max-height: 250px;
+}
